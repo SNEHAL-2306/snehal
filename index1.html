@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="first.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Navigation-Bar Section -->
+    <nav>
+        <div class="logo">
+            <h2>Snehal Sawant</h2>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Get in Touch</a></li>
+
+            
+        </ul>
+        <div class="menu-bar" id="menu-bar">
+            <div class="slider">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="cross" id="cross" style="display: none;"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header>
+        <div>
+            <div class="slider">
+                <div class="slide slide1"></div>
+                <div class="slide slide1"></div>
+                <div class="slide slide1"></div>
+                <h1 class="welcome heading">
+                    "Hello, I'm SNEHAL" 
+                    <br> 
+                    "Welcome To My Portfolio" 
+               </h1> 
+
+            </div>
+        </div>
+         
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-heading">About Me</h2>
+        <p>
+            <span class="typing-text">Hi, I'm a WEB DEVELOPER</span>
+            <br>
+            "Passionate about creating modern and interactive websites. With a strong foundation in HTML, CSS, and JavaScript, I bring creative solutions to every project."
+        </p>
+        <!-- Button -->
+        <button class="resume-button">View My Resume</button>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <h2 class="section-heading">My Education</h2>
+        
+        <div class="education-entry">
+            <img src="download2.jpg" alt="img1" class="education-image">
+            <h3>BCA - Bachelor of Computer Applications</h3>
+            <h4>(Completed - 2024)</h4>
+            <p>Shivaji University, Kolhapur</p>
+        </div>
+        
+        <div class="education-entry">
+            <img src="download2.jpg" alt="img1" class="education-image">
+            <h3>H.S.C - Higher Secondary Certificate</h3>
+            <h4>(Completed - 2021)</h4>
+            <p>Ajara Mahavidyalaya, Ajara</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="section-heading">
+            <i class="fa-solid fa-laptop"></i> TECHNICAL SKILLS
+        </h2>
+        <p class="animated-text">Here are some of my technical skills I have developed over the past few years.</p>
+
+        <div class="skill" style="--skill-index: 1;">
+            <i class="fab fa-html5"></i> <!-- HTML Icon -->
+            <h3>HTML</h3>
+        </div>
+        
+        <div class="skill" style="--skill-index: 2;">
+            <i class="fab fa-css3-alt"></i> <!-- CSS Icon -->
+            <h3>CSS</h3>
+        </div>
+
+        <div class="skill" style="--skill-index: 3;">
+            <i class="fab fa-js"></i> <!-- JavaScript Icon -->
+            <h3>JAVASCRIPT</h3>
+        </div>
+
+        <div class="skill" style="--skill-index: 4;">
+            <i class="fab fa-python"></i> <!-- Python Icon -->
+            <h3>PYTHON</h3>
+        </div>
+
+        <div class="skill" style="--skill-index: 5;">
+            <i class="fab fa-react"></i> <!-- React JS Icon -->
+            <h3>REACT JS</h3>
+        </div>
+
+        <div class="skill" style="--skill-index: 6;">
+            <i class="fas fa-cogs"></i> <!-- Django Icon -->
+            <h3>DJANGO</h3>
+        </div>
+
+        <div class="skill" style="--skill-index: 7;">
+            <i class="fas fa-database"></i> <!-- MongoDB Icon -->
+            <h3>MONGODB</h3>
+        </div>
+
+        <div class="skill" style="--skill-index: 8;">
+            <i class="fab fa-js-square"></i> <!-- jQuery Icon -->
+            <h3>jQuery</h3>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-heading">My Projects</h2>
+
+        <div class="project-slider">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <img src="Screenshot 2024-11-06 235016.png" alt="Project 1" class="project-image">
+                <h3>Project One: Tiny Town</h3>
+                <p>Navigation Bar: Includes links to different product categories (e.g., Baby Girls, Baby Boys, Accessories) and an animated menu icon. Header Section: Welcomes users with a brief introduction to baby clothes and essentials.</p>
+                <a href="https://dytineytownwebsite.netlify.app/" class="project-link">View Project</a>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <img src="Screenshot 2024-11-07 132808.png" alt="Project 2" class="project-image">
+                <h3>Project Two: Login Form</h3>
+                <p>Username Input (Email): A text input field where users can enter their username (email). It is marked as required, meaning the form cannot be submitted without filling it in.</p>
+                <a href="https://dyloginform.netlify.app/" class="project-link">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Get in Touch Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-heading">Get in Touch</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Name" required="">
+            <input type="email" placeholder="Email" required="">
+            <textarea placeholder="Message" required=""></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Contact Info Section -->
+    <section id="contact-info">
+        <h3 class="section-heading">Contact Info</h3>
+        <p>If you would like to reach out, you can find my contact details below:</p>
+        <div class="contact-details">
+            <div class="contact-item">
+                <i class="fa fa-phone"></i>
+                <span>91 + 9370078241</span>
+            </div>
+            <div class="contact-item">
+                <i class="fa fa-envelope"></i>
+                <span>savantsnehal23@gmail.com</span>
+            </div>
+            <div class="contact-item">
+                <i class="fa fa-map-marker"></i>
+                <span>MUMBAI</span>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Connect with me on social platforms:</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/divya-yewale-b1565b24b" target="_blank" class="bi bi-linkedin"></a>
+            <a href="https://github.com/Divya-2506" target="_blank" class="bi bi-github"></a>
+        </div>
+    </footer>
+
+    <!-- Welcome Section -->
+    <section id="welcome-section">
+        <h1>Snehal's Portfolio</h1>
+        <p>Thank you for visiting my portfolio. I hope you find my work inspiring and interesting.</p>
+        <p>Let's make something great together. Keep rising <span class="heart-icon">♡</span></p>
+    </section>
+
+    <script src="script1.js"></script>
+</body>
+</html>
